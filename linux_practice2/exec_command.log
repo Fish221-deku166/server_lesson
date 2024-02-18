@@ -1,0 +1,59 @@
+    1  yum update -y && yum -y install git
+    2  git version
+    3  git init
+    4  touch first.txt
+    5  mkdir linux_practice1 && cd linux_practice1
+    6  mkdir public && cd public
+    7  touch index.php
+    8  ls
+    9  cp server_lesson/linux_practice1/public/index.php server_lesson/linux_practice1/public/index_bk.php
+   10  ls
+   11  cp index.php index_bk.php
+   12  ls
+   13  ../
+   14  cd /public
+   15  cp -r public tmp
+   16  cd linux_practice1
+   17  cd ..
+   18  cp -r public tmp
+   19  ls
+   20  cd /tmp/index_bk.php
+   21  cd tmp
+   22  ls
+   23  rm index_bk.php
+   24  ls
+   25  rm server_lesson/linux_practice1/tmp/index_bk.php
+   26  ls
+   27  rm tmp/index_bk.php
+   28   rm index_bk.php
+   29  ls
+   30  ../
+   31  ../
+   32  cd ../../
+   33  cd server_lesson
+   34  cd linux_practice1
+   35  cd ../
+   36  touch README.md
+   37  ls
+   38  cd C:\Users\pen_g\OneDrive\デスクトップ\sato_kesu\server_lesson
+   39  cd "C:\Usrs\pen_g\OneDrive\デスクトップ\sato_kesu\server_lesson
+
+q
+exit
+   40  cd C:\Users\pen_g\OneDrive\デスクトップ\sato_kesu\server_lesson
+   41  vi README.md
+   42  mkdir linux_practice2 && cd linux_practice2
+   43  mkdir documents && cd  documents
+   44  touch gizumo{01..50}.md
+   45  ls
+   46  cd ../
+   47  mkdir trash && cd trash
+   48  mv ../documents/gizumo{20..40}.md .
+   49  ls
+   50  cd ../
+   51  touch .gitignore
+   52  ls
+   53  vi .gitignore
+   54  history 300 > linux_practice2/exec_command.log
+   55  ls
+   56  history 300 > exec_command.log
